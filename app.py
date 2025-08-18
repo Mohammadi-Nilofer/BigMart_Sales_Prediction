@@ -48,9 +48,10 @@ if st.button("Predict Sales"):
         "Outlet_Size": Outlet_Size,
         "Outlet_Location_Type": Outlet_Location_Type,
         "Outlet_Type": Outlet_Type,
-        "Outlet_Age": Outlet_Age
+        "Outlet_Establishment_Year": 2025 - Outlet_Age
     }])
 
     # Make prediction
     prediction = model.predict(input_df)[0]
     st.success(f"📈 Predicted Item Outlet Sales: ₹{prediction:.2f}")
+
