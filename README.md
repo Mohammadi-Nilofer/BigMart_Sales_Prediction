@@ -1,7 +1,5 @@
 # 🛒 BigMart Sales Prediction
 
-# 🛒 BigMart Sales Prediction
-
 An end-to-end machine learning project that predicts how much of a product a BigMart store will sell, from loading raw data into MySQL through to an interactive Streamlit web app.
 
 ## Business problem
